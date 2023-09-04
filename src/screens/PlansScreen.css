@@ -1,0 +1,42 @@
+/* Default styles for larger screens */
+
+.plansScreen__plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  opacity: 0.8;
+}
+
+.plansScreen__plan:hover {
+  opacity: 1;
+}
+
+.plansScreen__plan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.plansScreen__plan--disabled > button {
+  background-color: gray !important;
+}
+
+/* Responsive adjustments for smaller screens */
+
+@media (max-width: 768px) {
+  .plansScreen__plan {
+    flex-direction: column; /* Stack plans vertically for smaller screens */
+    align-items: center; /* Center align content for smaller screens */
+    text-align: center; /* Center-align text for smaller screens */
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .plansScreen__plan > button {
+    padding: 10px 15px; /* Adjust padding for smaller screens */
+    margin-top: 10px; /* Add spacing between plans for smaller screens */
+  }
+}

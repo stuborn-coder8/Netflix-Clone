@@ -1,0 +1,118 @@
+.banner {
+  position: relative;
+  height: 448px;
+  color: white;
+  object-fit: contain;
+}
+
+.banner__contents {
+  margin-left: 30px;
+  padding-top: 140px;
+  height: 190px;
+}
+
+.banner__title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+}
+
+.banner__description {
+  width: 45rem;
+  line-height: 1.3;
+  padding-top: 1rem;
+  font-size: 0.8rem;
+  max-width: 360px;
+  height: 80px;
+}
+
+.banner--fadeBottom {
+  height: 7.4rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+}
+
+.banner__button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner__button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  transition: all 0.25;
+}
+@media (max-width: 768px) {
+  .banner {
+    height: auto; /* Adjust the height as needed */
+  }
+
+  .banner__contents {
+    margin-left: 0;
+    padding-top: 60px;
+    height: auto;
+    text-align: center;
+  }
+
+  .banner__title {
+    font-size: 2rem; /* Adjust the font size for smaller screens */
+  }
+
+  .banner__description {
+    width: 100%;
+    max-width: none;
+    padding-top: 0.5rem;
+    font-size: 0.9rem; /* Adjust the font size for smaller screens */
+    height: auto;
+  }
+
+  .banner--fadeBottom {
+    height: 5rem; /* Adjust the height as needed */
+  }
+
+  .banner__button {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem; 
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 0.2vw;
+    outline: none;
+    background-color: rgba(51, 51, 51, 0.5);
+    
+    
+    
+    /* Adjust the font size for smaller screens */
+  }
+  .banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.25;
+  }
+ 
+
+  
+  .banner__title{
+    font-size: 25px;
+
+  }
+  
+    
+    
+    
+  
+}

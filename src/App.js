@@ -12,6 +12,7 @@ import LoginScreen from './screens/LoginScreen';
 import { auth } from './firebase';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, logout, selectUser } from './features/userSlice';
+<meta name="google-site-verification" content="Np-CGc1LwkW8WmRptxYS_8Pvu76mnhQ_pJ5eOA3-k4o" />
 
 
 function App() {
